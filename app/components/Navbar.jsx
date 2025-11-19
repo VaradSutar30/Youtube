@@ -9,7 +9,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="w-full py-1 flex justify-between items-center h-10 w010 py-10 px-2 flex-nowrap">
+    <div className="w-full py-full flex justify-between items-center h-10 w010 py-10 px-2 flex-nowrap">
 
       {/* YouTube Logo + PNG */}
       <div className="flex items-center gap-4 justify-between">
@@ -28,35 +28,37 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="Search"
-            className="h-8 w-96 px-2 outline-none"
+            className="h-10 w-120 px-2 outline-none"
           />
 
           <button className="h-8 w-8 flex items-center justify-center rounded-r-3xl">
-            <IoSearch size={18} />
+            <IoSearch size={24} />
           </button>
         </div>
 
         {/* Microphone Button */}
         <button className="h-8 w-8 flex items-center justify-center rounded-full bg-gray-200">
-          <PiMicrophoneBold size={20} />
+          <PiMicrophoneBold size={24} />
         </button>
       </div>
 
       {/* Right side buttons */}
       <div className="flex items-center gap-4 justify-between">
         <button className="h-8 px-4 flex items-center gap-1 bg-gray-200 rounded-3xl">
-          <IoAdd size={16} />
+          <IoAdd size={24} />
           Create
         </button>
 
         <button className="h-8 w-8 flex items-center justify-center rounded-full bg-gray-200">
-          <FaRegBell size={20} />
+          <FaRegBell size={24} />
         </button>
 
         <button className="h-8 w-8 flex items-center justify-center gap-5 rounded-full bg-gray-200">
-          <FaRegUserCircle size={20} />
+          <FaRegUserCircle size={24} />
         </button>
       </div>
+
+      
 
     </div>
   );
