@@ -1,51 +1,59 @@
+"use client";
 import React from "react";
-import Image from "next/image";
+
 const Hero = () => {
   return (
-    <div className="w-full px-2 py-full flex items-center gap-3 flex-row ">
-      <button className="h-9 px-4 flex items-center gap-1 bg-black text-white rounded font-medium rounded-xl">
+    <div className="w-full px-4 py-3 flex items-center gap-3 overflow-x-auto flex-nowrap no-scrollbar justify-between cursor-pointer">
+      
+      <button className="h-9 px-4 bg-black text-white rounded-xl font-medium whitespace-nowrap cursor-pointer">
         All
       </button>
-      <button className="h-8 px-4 flex-row items-center gap-3 rounded-xl bg-gray-200 rounded flex-nowrap ">
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
         Music
       </button>
-      <button className="h-8 px-4 flex-row items-center gap-3  rounded-xl bg-gray-200 rounded flex-nowrap text-xs">
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
         Mixes
       </button>
-      <button className="h-8 w-full px-4 bg-gray-200 rounded  rounded-xl text-xs font-medium">
-        Movie fix
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
+        Movie Fix
       </button>
-      <button className="h-8 w-full px-4 bg-gray-200 rounded rounded-xl text-xs">
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
         Jukebox
       </button>
-      <button className="h-8 w-full px-4 bg-gray-200 rounded rounded-xl text-xs">
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
         Live
       </button>
-      <button className="h-8 w-full px-4 bg-gray-200 rounded text-xs rounded-xl">
-        Arjit Singh
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
+        Arijit Singh
       </button>
-      <button className="h-8 w-fix flex px-4 bg-gray-200 rounded text-xs rounded-xl">
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
         Marathi Cinema
       </button>
-      <button className="h-8 w-full px-4 text-xs bg-gray-200 rounded text-xs rounded-xl">
-        Lofi 
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
+        Lofi
       </button>
-      <button className="h-8 w-full px-4 bg-gray-200 rounded text-xs rounded-xl">
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
         Disha Vakani
       </button>
-      <button className="h-8 w-full px-4 bg-gray-200 rounded text-xs rounded-xl">
-        Dj Mix
-      </button>
-      <button className="h-8 w-full px-4 bg-gray-200 rounded text-xs rounded-xl">
-        Salaman Khan
+
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
+        DJ Mix
       </button>
 
-      
+      <button className="h-9 px-4 bg-gray-200 rounded-xl whitespace-nowrap cursor-pointer">
+        Salman Khan
+      </button>
 
-
-      </div>
-
-      
+    </div>
   );
 };
 
